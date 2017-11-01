@@ -1,6 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+title {
+	display: none;
+}
+#Header {
+	height: 100px;
+	width: 100%;
+	
+}
+#nav {
+	background-color: #808080;
+	padding: .5em;
+	
+}
+#nav li {
+	display: inline;
+
+}
+#nav a {
+	margin: .5em;
+	padding: 5px;
+	background-color: #808080;
+	font-style: none;
+	text-decoration: none;
+
+}
+#nav a:hover {
+	margin: .5em;
+	padding: 5px;
+	background-color: #606060;
+	font-style: none;
+	text-decoration: none;
+
+}
 h1 {
 	color:blue;
 }
 body {
-	background-image: url('../resources/backgrounds/indexBack1.png');
+	/*background-image: url('../resources/backgrounds/indexBack1.png');*/
+	background-color: #ff8100;
+}
+
+#welcomeDiv {
+	display: block;
+	width: 100%;
+	background-color: #ffffff;
+}
+#welcomeDiv h1 {
+	padding: 20px;
+	padding-bottom: 0px;
+}
+#whoWeAreText {
+	width: 100%;
+	background-color: #ffffff;
+}
+#whoWeAreText p {
+	padding: 20px;
 }
